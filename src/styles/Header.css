@@ -1,0 +1,127 @@
+html, body 
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.custom-navbar 
+{
+    background-color: #ff8c00;
+}
+
+.navbar-brand 
+{
+    font-weight: 900;
+    line-height: normal;
+}
+
+.nav-menu-list 
+{
+    width: 472px;
+}
+
+.nav-circle 
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #fff4ce;
+}
+
+.nav-line 
+{
+    height: 31px;
+    border-left: 4px solid #ffffff;
+}
+
+.dropdown-container
+{
+    position: relative;
+}
+
+.dropdown-menu[data-bs-popper]
+{
+    position: absolute;
+    left: -290% !important;
+}
+
+.dropdown-divider
+{
+    border-top: 1px solid #e9ecef;
+}
+
+.btn-close 
+{
+    box-shadow: none !important;
+}
+
+#navbarNav2 
+{
+    width: 260px;
+    background-color: purple;
+}
+
+.navbar-toggler 
+{
+    border: none !important;
+}
+
+.navbar-toggler:focus 
+{
+    box-shadow: none !important;
+}
+
+.fa-circle-user 
+{
+    margin-left: 3px;
+    margin-right: 17px;
+}
+.nav-search 
+{
+    position: relative;
+    margin-top: 8px;
+}
+
+.icon-search 
+{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.navbar-nav-mobile 
+{
+    border-top: solid 1px #eff1f3;
+}
+
+.fa-house 
+{
+    margin-left: 1px;
+    margin-right: 18px;
+}
+
+.fa-shop 
+{
+    margin-right: 15px;
+}
+
+.fa-phone 
+{
+    margin-left: 3px;
+    margin-right: 18px;
+}
+
+.header-bottom-container 
+{
+    height: 100px;
+    background-color: #ff9900;
+}
+  

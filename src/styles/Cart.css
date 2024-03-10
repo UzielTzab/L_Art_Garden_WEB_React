@@ -1,0 +1,188 @@
+.sticky {
+    position: sticky;
+    top: 20px;
+  }
+  
+.custom-navbar 
+{
+    background-color: #ff8c00;
+}
+.filtro-box {
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    max-width: 200px; /* Ajusta el ancho máximo según sea necesario */
+  }
+  .filtro-box h4{
+    margin-bottom: 70px;
+  }
+  .filtro-box h5{
+    margin-bottom: 25px;
+  }
+.navbar-brand 
+{
+    font-weight: 900;
+    line-height: normal;
+}
+
+.nav-menu-list 
+{
+    width: 472px;
+}
+
+.nav-circle 
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #fff4ce;
+}
+
+.nav-line 
+{
+    height: 31px;
+    border-left: 4px solid #ffffff;
+}
+
+.btn-close 
+{
+    box-shadow: none !important;
+}
+
+#navbarNav2 
+{
+    width: 260px;
+    background-color: purple;
+}
+
+.navbar-toggler 
+{
+    border: none !important;
+}
+
+.navbar-toggler:focus 
+{
+    box-shadow: none !important;
+}
+
+.fa-circle-user 
+{
+    margin-left: 3px;
+    margin-right: 17px;
+}
+
+.nav-search 
+{
+    position: relative;
+    margin-top: 8px;
+}
+
+.icon-search 
+{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.navbar-nav-mobile 
+{
+    border-top: solid 1px #eff1f3;
+}
+
+.fa-house 
+{
+    margin-left: 1px;
+    margin-right: 18px;
+}
+
+.fa-shop 
+{
+    margin-right: 15px;
+}
+
+.fa-phone 
+{
+    margin-left: 3px;
+    margin-right: 18px;
+}
+
+.header-bottom-container 
+{
+    height: 100px;
+    background-color: #ff9900;
+}
+main 
+{
+    width: 100%;
+    /* background-color: pink; */
+}
+/* .login-container 
+{
+    background-color: #fff4ce;
+} */
+/* .login-main 
+{
+    background-color: aqua;
+} */
+.login-line
+{
+    width: 99%;
+    height: 2px;
+    background-color: #eff1fe;
+}
+
+
+
+
+/* Estilos para el carrito de compras */
+
+/* Estilos para la imagen del producto en el carrito */
+.card-img-top-cart {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Estilos para el título del producto en el carrito */
+  .card-title-cart {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  /* Estilos para el texto del producto en el carrito */
+  .card-text.cart {
+    font-size: 1rem;
+  }
+  
+  /* Estilos para el resumen del pedido */
+  .card-body-cart {
+    background-color: #ffffff;
+  }
+  
+  /* Estilos para los elementos del resumen del pedido */
+  .list-group-item {
+    background-color: transparent;
+    border: none;
+  }
+  
+  /* Estilos para el botón de proceder al pago */
+  .btn-primary {
+    width: 100%;
+  }
+  
+  /* Estilos para los detalles de los productos en el carrito */
+  .card-details {
+    display: flex;
+  }
+  
+  .card-details .col-md-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  
